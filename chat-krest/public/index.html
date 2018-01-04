@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>chat</title>
+    <script src="socket.io.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js" charset="utf-8"></script>
+    <script src="main.js" charset="utf-8"></script>
+    <script src="krest.js" charset="utf-8"></script>
+	<link rel="stylesheet" type="text/css" href="css.css"/>
+  </head>
+  
+  <body onload="start()">
+    <table>
+	<tr>
+		<td valign='top' colspan='2'>
+		<input id="txt" type="text" name="text"  style="width:300">
+		<button type="button" id='send' class='b1'  disabled name="button"  >Отправить</button>
+		<input type='checkbox' id='sk' onclick="setScale()">шкала
+		<input type='checkbox' id='ssend' checked onclick="setSend()">повтор
+		<br>
+	<tr><td valign='top'>	
+		<canvas id="cs1" width="390" height="390"
+			style="border:3px solid #000000; background-color:lightblue;"
+		>   
+		<td valign='top'>	
+		<textarea name="name" rows="30" cols="15" style="width:150;height:396">></textarea>
+	</table>
+	<!-- 450 = 15*30 -->
+  </body>
+
+  </html>
