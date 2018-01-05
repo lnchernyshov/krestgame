@@ -1,0 +1,35 @@
+{
+  "name": "chat-krest",
+  "version": "1.0.0",
+  "description": "game krest-zero",
+  "engines": {
+    "node": "8.9.1"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+
+  "dependencies": {
+    "express": "^4.15.3",
+    "socket.io": "^2.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "qq"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lnchernyshov/krestgame.git"
+  },
+  "keywords": [
+    "game",
+    "krest"
+  ],
+  "author": "L.N.Chernyshov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lnchernyshov/krestgame/issues"
+  },
+  "homepage": "https://github.com/lnchernyshov/krestgame#readme"
+}
